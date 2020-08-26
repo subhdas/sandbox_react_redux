@@ -50,6 +50,7 @@ class App extends Component {
     console.log(" APP mounted ", this.state, this.props);
     // this.state["cartdata"] = this.props.state["cartdata"];
     // this.setState({});
+    // new comment
   };
 
   render() {
