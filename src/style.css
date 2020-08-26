@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.div_jsonelems {
+  background: coral;
+  font-size: 1.3em;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.div_jsonelems_hover {
+  background: lightgray;
+  font-size: 1.3em;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.gif_elems {
+  width: 100%;
+  padding: 5px;
+  border-right: 1px dashed lightgray;
+}

@@ -1,0 +1,30 @@
+.toolbar {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: coral;
+  height: 56px;
+}
+
+.toolbar__navigation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.toolbar__logo {
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(200, 10, 90, 1);
+  color: white;
+  margin: 10px;
+}
+
+/* @media (max-width: 768px) {
+  .toolbar__navigation {
+    display: none;
+  }
+} */
